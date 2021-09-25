@@ -16,7 +16,7 @@ namespace Tareas_U_1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FunciondeParImparPrimo());
+            Application.Run(new  ControlDeSalarios());
         }
     }
 }

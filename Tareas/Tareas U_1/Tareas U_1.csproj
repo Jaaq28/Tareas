@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ControlDeSalarios%28Ejercicio2%29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlDeSalarios%28Ejercicio2%29.Designer.cs">
+      <DependentUpon>ControlDeSalarios%28Ejercicio2%29.cs</DependentUpon>
+    </Compile>
     <Compile Include="FunciondePar,ImparyPrimo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +60,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ControlDeSalarios%28Ejercicio2%29.resx">
+      <DependentUpon>ControlDeSalarios%28Ejercicio2%29.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FunciondePar,ImparyPrimo.resx">
       <DependentUpon>FunciondePar,ImparyPrimo.cs</DependentUpon>
     </EmbeddedResource>
